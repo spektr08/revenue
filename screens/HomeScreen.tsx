@@ -22,7 +22,7 @@ const HomeScreen = () => {
         </TouchableOpacity>
 
         <Image 
-          source={{ uri: "https://i.imgur.com/e14NE49.png"}}
+          source={require('../assets/e14NE49.png')}
           className="w-full h-64"
         />
 
